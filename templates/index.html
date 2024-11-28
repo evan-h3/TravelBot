@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream Travel Agency</title>
+    <!-- Link to External CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1>Dream Travel Agency</h1>
+        <p>Plan your next adventure with us!</p>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          At Dream Travel Agency, we specialize in creating unforgettable travel
+          experiences. Whether you're looking for a relaxing beach vacation,
+          thrilling adventure, or a city exploration, we've got you covered.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service">
+          <h3>Vacation Packages</h3>
+          <p>Handpicked destinations to suit your preferences.</p>
+        </div>
+        <div class="service">
+          <h3>Travel Assistance</h3>
+          <p>We take care of all your visa and travel requirements.</p>
+        </div>
+        <div class="service">
+          <h3>Cost Planning</h3>
+          <p>Transparent pricing and budget-friendly options.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Start a chat with our TravelBot below.</p>
+      </div>
+    </section>
+
+    <!-- Dialogflow Chatbot -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="TravelBot"
+      agent-id="b34cd8ac-f5cb-4fb0-8cea-eff8756427c8"
+      language-code="en"
+    ></df-messenger>
+  </body>
+</html>

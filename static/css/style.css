@@ -1,0 +1,96 @@
+/* General Styles */
+/* Basic page styling */
+body {
+  font-family: 'Arial', sans-serif; /* Easy-to-read font */
+  line-height: 1.6; /* Adds space between lines for better reading */
+  margin: 0; /* Removes default page margin */
+  padding: 0; /* Removes default page padding */
+  color: #333; /* Dark gray text color */
+  background-color: #f4f4f9; /* Light gray background */
+}
+
+/* Layout for main content areas */
+.container {
+  width: 90%; /* Content width adjusts for screen size */
+  max-width: 1200px; /* Maximum width for large screens */
+  margin: 0 auto; /* Centers the content */
+  padding: 20px; /* Adds space inside the content box */
+}
+
+/* Header Section */
+/* Top banner styles */
+header {
+  background: #0052cc; /* Blue background */
+  color: white; /* White text for contrast */
+  padding: 60px 20px; /* Adds space inside the banner */
+  text-align: center; /* Centers all text */
+}
+
+/* Main title and subtitle styles */
+header h1 {
+  font-size: 3rem; /* Large font for the main title */
+  margin: 0; /* Removes extra spacing */
+}
+
+header p {
+  font-size: 1.2rem; /* Medium font for the subtitle */
+  margin-top: 10px; /* Adds space above the subtitle */
+}
+
+/* About Section */
+/* "About Us" section styling */
+.about {
+  background-color: white; /* Clean, bright background */
+  padding: 80px 20px; /* Adds space around the content */
+  text-align: center; /* Centers the text */
+}
+
+.about h2 {
+  font-size: 2.5rem; /* Large font for the title */
+  color: #0052cc; /* Blue title color */
+}
+
+.about p {
+  font-size: 1.2rem; /* Medium font size */
+  line-height: 1.8; /* Adds space between lines */
+}
+
+/* Services Section */
+/* Services section styling */
+.services {
+  background-color: #eaeaea; /* Light gray background */
+  padding: 80px 20px; /* Adds space around the section */
+  text-align: center; /* Centers all text */
+}
+
+.services h2 {
+  font-size: 2.5rem; /* Large font for the title */
+  color: #0052cc; /* Blue title color */
+}
+
+/* Service cards styling */
+.services .service {
+  margin: 20px 0; /* Space between cards */
+  padding: 10px; /* Space inside the card */
+  background: white; /* Clean white card background */
+  border-radius: 8px; /* Smooth rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.services .service h3 {
+  color: #0052cc; /* Blue title color */
+  font-size: 1.5rem; /* Medium font size */
+}
+
+/* Contact Section */
+/* Contact section styling */
+.contact {
+  padding: 40px 20px; /* Adds space around the section */
+  background: white; /* Clean white background */
+  text-align: center; /* Centers the text */
+}
+
+.contact h2 {
+  font-size: 2rem; /* Medium font size for the title */
+  color: #0052cc; /* Blue title color */
+}
